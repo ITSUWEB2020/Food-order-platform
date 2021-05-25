@@ -1,0 +1,77 @@
+<html>
+<head></head>
+<body>
+<link rel="stylesheet" type="text/css" href="homepage.component.css" />
+
+<div class="block2" >
+  <img class="ovibg" src="../../assets/images/OVIB.png">
+  <div>
+    <img class="food" src="../../assets/images/food.png">
+  </div>
+
+</div>
+
+
+<div class="block_ord">
+  <p class="FOOD" ><a name="ORDER">ORDER</a></p>
+  <div class="food_block">
+    <div class="b">
+      <div class="a"><strong>Your orders</strong></div>
+      <div id="sidebar"><p class="sum">Sum</p></div>
+      <div class="sidebar1"></div><br><br>
+      <div class="leftstr"><strong>Office</strong></div>
+      <div class="rightstr"><strong>Address</strong></div>
+      <div class="rightstr2"><strong>Food price</strong></div><br><br>
+
+      <div class="A1">1</div>
+      <div class="line"></div>
+      <div class="A2">2</div>
+      <div class="line1"></div>
+      <div class="A3">3</div>
+      <div class="line2"></div>
+      <div class="A4">4</div>
+      <div class="line3"></div>
+      <div class="A5">5</div>
+      <div class="line4"></div>
+    </div>
+
+  </div>
+  <p class="ORDER" ><a name="FOOD">FOOD</a></p>
+  <div class="order_block">
+    <button routerLink="#" class="Food_add_but"> + </button>
+    <div class="dish1"> <img class="idish" src="../../assets/images/dish1.png">
+    <div class="pricedish"><p class="priced">63</p> </div>
+
+    </div>
+
+    <form>
+      <input type="search" class="findfood" placeholder="Food">
+      <button class="Find" type="submit"><img src="../../assets/images/find.png" ></button>
+    </form>
+    <button class="basket"><img src="../../assets/images/heart.png"> </button>
+  </div>
+  ng
+  <div class="block1" >
+    <a class="logout" [routerLink]="['/login']">Log Out</a>
+    <a href="/" class="nameuser">{{NAME}}</a>
+    <a href="#ORDER" class="Order">Order</a>
+    <a href="#FOOD" class="food_name">Food</a>
+    <a href="" class="Company">Company</a>
+    <a href="" class="Setting">Settings</a>
+    <img class="mini_ovi" src="../../assets/images/Icon.png">
+  </div>
+
+
+
+
+
+
+</div>
+
+
+<router-outlet></router-outlet>
+
+
+</body>
+</html>
+

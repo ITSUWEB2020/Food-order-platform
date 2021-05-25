@@ -1,0 +1,30 @@
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>OVI Registration</title>
+  <link rel="stylesheet" type="text/css" href="addfoodp.component.css"/>
+</head>
+<body>
+<form (ngSubmit)="addUser()"#userForm="ngForm">
+  <div class="block1">
+    <div class="blocknamefood">
+      <button type="submit" class="backB">BACK</button>
+      <button type="submit"(click)="addUser()" class="addB">ADD</button>
+      <input #spy #AddName = "ngModel"  class="nameInp" placeholder="ADD NAME"[(ngModel)]="dish.name">
+    </div>
+    <div class="alert alert-danger">
+
+    </div>
+    <textarea [(ngModel)]="dish.description" class="blokdescr"></textarea>
+    <div class="descripInp">Add description</div>
+
+    <input class="blokprice"[(ngModel)]="dish.price", name="add price" >
+    <div class="priceInp"> Add price</div>
+
+    <textarea class="blokingred"></textarea>
+    <div class="ingredInp"> Add ingredients</div>
+  </div>
+</form>
+
+</body>
+</html>

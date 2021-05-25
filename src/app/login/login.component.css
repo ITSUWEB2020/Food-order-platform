@@ -1,0 +1,240 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat-MediumItalic.eot');
+  src: local('Montserrat Medium Italic'), local('Montserrat-MediumItalic'),
+  url('Montserrat-MediumItalic.eot?#iefix') format('embedded-opentype'),
+  url('Montserrat-MediumItalic.woff2') format('woff2'),
+  url('Montserrat-MediumItalic.woff') format('woff'),
+  url('Montserrat-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+.block1 {
+
+  position: fixed;
+  width: 430px;
+  height: 361px;
+  left: 522px;
+  top: 200px;
+
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+}
+.log_in {
+  position: absolute;
+  width: 178px;
+  height: 47px;
+  left: 35px;
+  top: -37px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+
+  color: #000000;
+
+}
+.sign_in {
+  position: absolute;
+  width: 178px;
+  height: 47px;
+  left: 160px;
+  top: -37px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+
+  color: #000000;
+
+}
+
+.Email{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width: 360px;
+  height: 57px;
+  left: 35px;
+  top: 80px;
+  border: 2px solid #593752;
+  box-sizing: border-box;
+  font-family: Montserrat;
+  font-size: 17px;
+  padding: 7px;
+}
+.Password {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width: 360px;
+  height: 57px;
+  left: 35px;
+  top: 160px;
+  border: 2px solid #593752;
+  box-sizing: border-box;
+  font-family: Montserrat;
+  font-size: 17px;
+  padding: 7px;
+}
+
+.Gbut_login{
+  position: absolute;
+  width: 67px;
+  height: 57px;
+  left: 133px;
+  top: 265px;
+  background: #7C70B8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+
+}
+.G_photo{
+  position: absolute;
+  left: 30.31%;
+  right: 35.82%;
+  top: 33.33%;
+  bottom: 35.09%;
+
+}
+.but_back{
+  position: absolute;
+  width: 68px;
+  height: 57px;
+  left: 35px;
+  top: 265px;
+  border: 2px solid #593752;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 54px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.email_text {
+  position: absolute;
+  left: 352px;
+  top: 70px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #C2C2C2;
+
+}
+
+.password_text{
+  position: absolute;
+  left: 330px;
+  top: 150px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+
+  text-align: right;
+
+  color: #C2C2C2;
+}
+
+.forgot{
+  position: absolute;
+  width: 160px;
+  height: 20px;
+  left: 230px;
+  top: 235px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: right;
+  text-decoration-line: underline;
+
+  color: #B4B2F1;
+
+}
+.mini_ovi{
+  position: absolute;
+  width: 65px;
+  height: 34px;
+  left: 330px;
+  top: 30px;
+
+
+}
+.ng-valid[required], .ng-valid.required {
+  border-left: 6px solid #42A948;
+}
+.ng-invalid:not(form) {
+  border-left: 6px solid #a94442;
+}
+.ng-untouched[required], .ng-untouched.required {
+  border-left: 6px solid #7C70B8;
+}
+
+.alarm{
+  position: absolute;
+  left: 123px;
+  top: 138px;
+  width: 360px;
+  height: 57px;
+  color: crimson;
+}
+
+.alarm2{
+  position: absolute;
+  left: 123px;
+  top: 218px;
+  width: 360px;
+  height: 57px;
+  color: crimson;
+}
+.body{
+  position: absolute;
+  width: 1140px;
+  height: 596px;
+  left: 10px;
+  background-size: 100%;
+}
+.Main_but{
+  font-family: Montserrat;
+  text-decoration: none;
+  position: absolute;
+  width: 165px;
+  height: 57px;
+  left: 230px;
+  top: 265px;
+  border: none;
+  background: #7C70B8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 54px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}

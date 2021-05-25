@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html >
+<!--<![endif]-->
+<head>
+  <meta charset="UTF-8" />
+  <title>OVI Registration</title>
+  <link rel="stylesheet" type="text/css" href="registration.component.css" />
+
+</head>
+<body>
+
+<form  #userForm="ngForm">
+  <div class="block1" >
+    <p class="log_in">Register</p>
+    <div class="form-group">
+      <input #Email="ngModel" class="Email" type="email" name="Gmail" [(ngModel)]="user.email" required pattern="[a-zA-Z0-9*]+@[a-zA-Z]+?\.[a-zA-Z]{2,3}" placeholder="ovi@gmail.com"  id="Gmail">
+      <div class="alarm" [hidden]="Email.valid || Email.pristine" > Не коректний Gmail </div>
+    </div>
+
+    <div class="form-group">
+      <input #Email="ngModel" class="phone" type="text" name="phone" [(ngModel)]="user.phone" required pattern="^((8|\+380)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{9}$" placeholder="+0000000"  id="phone">
+    </div>
+    <p class="phone_text"> Phone </p>
+
+    <img class="mini_ovi" src="../assets/images/ovi_small.png">
+
+    <p class="log_in">Register</p>
+    <div class="form-group" >
+    <input #FirstName="ngModel" required class="name" type="text" [(ngModel)]="user.username"  placeholder="Maxym" name="FirstName"   id="FirstName">
+      <div class="alarm1" [hidden]="FirstName.valid || FirstName.pristine" > Поле має бути заповнене </div>
+  </div>
+    <p class="email_text"> Gmail </p>
+    <div class="form-group">
+    <input #Password="ngModel" class="Password"  placeholder="********" [(ngModel)]="user.password" name="Password" required type="password" id="Password">
+      <div class="alarm2" [hidden]="Password.valid || Password.pristine" > Поле має бути заповнене </div>
+    </div>
+    <p class="password_text"> Password </p>
+   <button class="but_login" type="submit" (click)="registration()" [disabled]="!userForm.form.valid">Join</button>
+    <a href="#" class="Gbut_login">
+      <p class="name_text"> Name </p>
+
+
+
+    </a>
+    <a href="#" class="but_back"><</a>
+    <a href="#" class="forgot">Log In</a>
+    <input type="checkbox" class="checkbox"> <p class="checkboxtext"> Я провайдер</p>
+
+
+  </div>
+</form>
+</body>
+</html>
+

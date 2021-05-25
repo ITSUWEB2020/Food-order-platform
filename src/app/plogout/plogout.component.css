@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../../assets/fonts/Montserrat-MediumItalic.eot');
+  src: local('Montserrat Medium Italic'), local('Montserrat-MediumItalic'),
+  url('../../assets/fonts/Montserrat-MediumItalic.eot?#iefix') format('embedded-opentype'),
+  url('../../assets/fonts/Montserrat-MediumItalic.woff2') format('woff2'),
+  url('../../assets/fonts/Montserrat-MediumItalic.woff') format('woff'),
+  url('../../assets/fonts/Montserrat-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+.block1 {
+  position: fixed;
+  width: 500px;
+  height: 300px;
+  left: 510px;
+  top: 200px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 4px solid #593752;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+}
+.textblock{
+  position: absolute;
+  left: 95px;
+  top: 50px;
+  width: 300px;
+  height: 75px;
+  background: #7C70B8;
+  border: 2px solid #7C70B8;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+.txt{
+  position: absolute;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  top: -15px;
+  left: 10px;
+}
+.confirm{
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  left: 90px;
+  top: 180px;
+  background: #593752;
+  border: 2px solid #593752;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+.back{
+  text-decoration: none;
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  left: 263px;
+  top: 180px;
+  background: #B4B2F1;
+  border: 2px solid #B4B2F1;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 33px;
+  text-align: center;
+
+
+  color: #FFFFFF;
+
+}

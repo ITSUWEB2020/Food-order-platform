@@ -1,0 +1,172 @@
+.block1{
+  position: relative;
+  width: 940px;
+  height: 674px;
+  left: 290px;
+  top: 10px;
+
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px 20px 20px 20px;
+}
+.blocknamefood{
+  position: absolute;
+  width: 940px;
+  height: 70px;
+  left: 0px;
+  top: 0px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px 20px 0px 0px;
+}
+.backB{
+  position: absolute;
+  width: 130px;
+  height: 70px;
+  left: 0px;
+  top: 0px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 59px;
+  color: #FFFFFF;
+  background: #7C70B8;
+  border-radius: 20px 0px 0px 0px;
+}
+.addB
+{
+  position: absolute;
+  width: 130px;
+  height: 70px;
+  left: 810px;
+  top: 0px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 59px;
+  color: #FFFFFF;
+  background: #593752;
+  border-radius: 0px 20px 0px 0px;
+}
+.nameInp{
+  position: absolute;
+  width: 680px;
+  height: 65px;
+  left: 128px;
+  top: 0px;
+
+  color: #6F4E6C;
+  text-decoration: none;
+  background: #FFFFFF;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 88px;
+  text-align: center;
+}
+.descripInp{
+  position: absolute;
+  width: 303px;
+  height: 70px;
+  left: 1px;
+  top: 70px;
+  border: 0px;
+  color: #FFFFFF;
+  background: #B4B2F1;
+  border-radius: 0px 0px 0px 0px;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 70px;
+  text-align: center;
+}
+.priceInp{
+  position: absolute;
+  width: 301px;
+  height: 70px;
+  left: 321px;
+  top: 70px;
+  border: 0px;
+  background: #FD993B;
+  color: #FFFFFF;
+  border-radius: 0px 0px 20px 20px;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 70px;
+  text-align: center;
+}
+.ingredInp {
+  position: absolute;
+  width: 301px;
+  height: 70px;
+  left: 639px;
+  top: 70px;
+  border: 0px;
+  background: #B4B2F1;
+  color: #FFFFFF;
+  border-radius: 0px 0px 0px 0px;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 70px;
+  text-align: center;
+}
+.blokdescr{
+  position: absolute;
+  width: 294px;
+  height: 400px;
+  left: 0px;
+  top: 135px;
+  text-align: center;
+  background: #FFFFFF;
+  border-radius: 0px 0px 20px 0px;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  border: 3px solid #B4B2F1;
+}
+.blokprice{
+  position: absolute;
+  width: 296px;
+  height: 230px;
+  left: 320px;
+  top: 70px;
+  text-align: center;
+  background: #E5E5E5;
+  border-radius: 0px 0px 20px 20px;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 50px;
+  border: 3px solid #FD993B;
+}
+.blokingred{
+  position: absolute;
+  width: 291px;
+  height: 400px;
+  left: 639px;
+  top: 135px;
+  text-align: center;
+  background: #FFFFFF;
+  border-radius: 0px 0px 0px 20px;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  border: 3px solid #B4B2F1;
+}
+
+.desripres{
+  position: absolute;
+  top: 300px;
+  left: 40px;
+}

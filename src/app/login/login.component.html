@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+<!--<![endif]-->
+<head>
+  <meta charset="UTF-8" />
+  <title>OVI Registration</title>
+  <link rel="stylesheet" type="text/css" href="login.component.css" />
+
+</head>
+<body>
+<form (ngSubmit)="autent()" #userForm="ngForm">
+  <div class="block1"  >
+    <p class="log_in">Log In</p>
+    <div class="form-group">
+      <input #Email="ngModel" class="Email" type="email" name="Gmail" [(ngModel)]="email" required pattern="[a-zA-Z0-9*]+@[a-zA-Z]+?\.[a-zA-Z]{2,3}" placeholder="ovi@gmail.com"  id="Gmail">
+      <div class="alarm" [hidden]="Email.valid || Email.pristine" > Не коректний Gmail </div>
+    </div>
+
+<img class="mini_ovi" src="../assets/images/ovi_small.png">
+
+    <p class="email_text"> Gmail </p>
+    <div class="form-group">
+      <input #Password="ngModel" class="Password"  placeholder="********" [(ngModel)]="password" name="Password" required type="password" id="Password">
+      <div class="alarm2" [hidden]="Password.valid || Password.pristine" > Поле має бути заповнене </div>
+    </div>
+    <p class="password_text"> Password </p>
+    <button class="Main_but" type="submit" [disabled]="!userForm.form.valid">Join</button>
+    <a href="" class="Gbut_login">
+
+
+
+
+    </a>
+    <a href="#" class="but_back"><</a>
+    <a href="#" class="forgot">Forgot password</a>
+
+
+  </div>
+</form>
+</body>
+</html>
+
